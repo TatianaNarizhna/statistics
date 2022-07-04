@@ -1,8 +1,10 @@
 function Section({ title, children }) {
-  <section>
-    <h2>{title}</h2>
-    {children}
-  </section>;
+  return (
+    <section>
+      <h2>{title}</h2>
+      {children}
+    </section>
+  );
 }
 
 export default Section;

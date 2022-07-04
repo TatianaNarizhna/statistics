@@ -1,7 +1,7 @@
 function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <div>
-      <h2>Please leave feedback</h2>
+      {/* <h2>Please leave feedback</h2> */}
       {options.map((option) => (
         <button
           type="button"
